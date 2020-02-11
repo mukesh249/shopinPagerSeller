@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "254640284707",
+    "firebase_url": "https://shopinpagerrider.firebaseio.com",
+    "project_id": "shopinpagerrider",
+    "storage_bucket": "shopinpagerrider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254640284707:android:4a33fac326157c351ebd96",
+        "android_client_info": {
+          "package_name": "shopinpager.wingstud.shopinpagerseller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254640284707-hi42i4fj5q9akgp1gqf2idbftm11qmi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shopinpager.wingstud.shopinpagerseller",
+            "certificate_hash": "35d2a51013cf7a9c9090d78bf74969d987dff620"
+          }
+        },
+        {
+          "client_id": "254640284707-0r9cptqqoqi5rdq9uvjbp77jslekjdlk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ZsBUznx8lgRE0VzncN2W4yo6rj7ooXk"
+        },
+        {
+          "current_key": "AIzaSyDaBdVjO2gXMgyEB6fSbMpahuaJWyXbv88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254640284707-0r9cptqqoqi5rdq9uvjbp77jslekjdlk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data></data>
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context="in.wingstud.grocitoseller.fragment.ProfileFrag">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@color/app_bg"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/dp_130"
+                        android:layout_height="@dimen/dp_130"
+                        android:layout_margin="@dimen/dp_10">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imvUser"
+                            android:layout_width="@dimen/dp_110"
+                            android:layout_height="@dimen/dp_110"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerInParent="true"
+                            android:padding="@dimen/dp_5"
+                            android:background="@drawable/rounded_image_bg"
+                            android:translationZ="@dimen/dp_5"
+                            android:src="@drawable/profile_thumb"/>
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/imvEdit"
+                            android:layout_width="@dimen/dp_30"
+                            android:layout_height="@dimen/dp_30"
+                            android:padding="@dimen/dp_5"
+                            android:layout_marginTop="@dimen/dp_20"
+                            android:layout_marginRight="@dimen/dp_10"
+                            android:elevation="@dimen/dp_10"
+                            android:layout_alignParentRight="true"
+                            android:background="@drawable/edit_image_bg"
+                            android:src="@drawable/ic_camera"/>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/txtName"
+                        style="@style/bold_text_view"
+                        android:layout_width="wrap_content"
+                        android:text="Hemant Jangid"
+                        android:textSize="@dimen/sp_20"
+                        android:layout_marginBottom="@dimen/dp_20"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:id="@+id/changePassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change password"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bussnessNameTv"
+                        style="@style/profile_text_view_style"
+                        android:text=""
+                        android:drawableLeft="@drawable/ic_house" />
+
+                    <View style="@style/grey_horizontal_line_style"/>
+                    <TextView
+                        android:id="@+id/emailTv"
+                        style="@style/profile_text_view_style"
+                        android:text=""
+                        android:drawableLeft="@drawable/ic_email_black_24dp" />
+
+                    <View style="@style/grey_horizontal_line_style"/>
+                    <TextView
+                        android:id="@+id/txtState"
+                        style="@style/profile_text_view_style"
+                        android:text="Rajasthan"
+                        android:drawableLeft="@drawable/ic_location_pin" />
+
+                    <View style="@style/grey_horizontal_line_style"/>
+
+                    <TextView
+                        android:id="@+id/txtMobile"
+                        style="@style/profile_text_view_style"
+                        android:text="+91 95245265265"
+                        android:drawableLeft="@drawable/ic_mobile" />
+
+                    <View style="@style/grey_horizontal_line_style"/>
+
+                    <TextView
+                        android:visibility="gone"
+                        android:id="@+id/txtGender"
+                        style="@style/profile_text_view_style"
+                        android:text="Male"
+                        android:drawableLeft="@drawable/ic_gender" />
+                    <View style="@style/grey_horizontal_line_style"/>
+                    <TextView
+                        android:id="@+id/txtAddress"
+                        style="@style/profile_text_view_style"
+                        android:text=""
+                        android:drawableLeft="@drawable/ic_house" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</layout>

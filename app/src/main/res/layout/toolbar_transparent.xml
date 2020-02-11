@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_55"
+        android:background="@color/tranparent"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:theme="@style/AppTheme">
+
+        <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+            android:id="@+id/activityTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/txt_large" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/toolbar_user"-->
+            <!--android:layout_width="@dimen/toolbar_icon_width"-->
+            <!--android:layout_height="@dimen/toolbar_icon_height"-->
+            <!--android:layout_gravity="right|center_vertical"-->
+            <!--android:layout_marginRight="@dimen/dp_20"-->
+            <!--android:visibility="visible"-->
+            <!--android:src="@drawable/ic_notification_bell"-->
+            <!--/>-->
+
+        <ImageView
+            android:id="@+id/imvNotification"
+            android:layout_width="@dimen/toolbar_icon_width"
+            android:layout_height="@dimen/toolbar_icon_height"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/dp_20"
+            android:visibility="gone"
+            android:src="@drawable/ic_notification_bell"
+            />
+
+
+    </androidx.appcompat.widget.Toolbar>
+</layout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data></data>
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="shopinpager.wingstud.shopinpagerseller.activity.TrackActi">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/dp_20"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/normal_text_view"
+                            android:text="@string/pick_up"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            style="@style/normal_text_view"
+                            android:text="Ganesham Store"
+                            android:textColor="@color/dark_gray"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:textSize="@dimen/sp_18"/>
+
+                        <TextView
+                            android:id="@+id/txtPickAdd"
+                            style="@style/normal_text_view"
+                            android:text="65 Shiva Nagar 5th, near new delhi ajmer Bypass Road, Jaipur (302013)"
+                            android:textColor="@color/gray"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:textSize="@dimen/sp_12"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_40"
+                        android:layout_height="@dimen/dp_40"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:src="@drawable/ic_shop_green"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/Grey_300"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/normal_text_view"
+                            android:text="@string/drop_off"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            style="@style/normal_text_view"
+                            android:text="Apple Residency"
+                            android:textColor="@color/dark_gray"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:textSize="@dimen/sp_18"/>
+
+                        <TextView
+                            android:id="@+id/txtDropAdd"
+                            style="@style/normal_text_view"
+                            android:text="65 Shiva Nagar 5th, near new delhi ajmer Bypass Road, Jaipur (302013)"
+                            android:textColor="@color/gray"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:textSize="@dimen/sp_12"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_10"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+                        
+                        <TextView
+                            style="@style/normal_text_view"
+                            android:layout_width="wrap_content"
+                            android:text="@string/total_distance"/>
+
+                        <TextView
+                            android:id="@+id/txtDistance"
+                            style="@style/normal_text_view"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="@dimen/dp_5"
+                            android:text="5 KM"
+                            android:textSize="@dimen/sp_18"
+                            android:textColor="@color/red"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</layout>
+

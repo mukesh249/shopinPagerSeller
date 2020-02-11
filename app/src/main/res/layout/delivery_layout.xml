@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+    android:elevation="@dimen/dp_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="@color/Grey_300"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15">
+
+            <View
+                android:id="@+id/viewPickup"
+                style="@style/delivery_view_style"/>
+
+            <View
+                android:id="@+id/viewEnroute"
+                style="@style/delivery_view_style"
+                android:layout_centerHorizontal="true"/>
+
+            <View
+                android:id="@+id/viewDelivered"
+                style="@style/delivery_view_style"
+                android:layout_alignParentRight="true"/>
+
+            <View
+                style="@style/delivery_line_style"
+                android:layout_toRightOf="@id/viewPickup"
+                android:layout_toLeftOf="@id/viewEnroute"/>
+
+            <View
+                style="@style/delivery_line_style"
+                android:layout_toRightOf="@id/viewEnroute"
+                android:layout_toLeftOf="@id/viewDelivered"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5">
+
+            <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                style="@style/delivery_text_view_style"
+                android:text="@string/pickup"/>
+
+            <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                style="@style/delivery_text_view_style"
+                android:text="@string/en_route"
+                android:layout_centerHorizontal="true"/>
+
+            <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                style="@style/delivery_text_view_style"
+                android:text="@string/delivered"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data></data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.OrderDetailActi">
+
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar">
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:background="@color/Grey_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtPickAdd"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="start"
+                        android:text="Total Amount :" />
+
+                    <TextView
+                        android:id="@+id/totalAmtTv"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text=" Rs 0" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@color/Grey_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="start"
+                        android:text="Grocito Total Commission :" />
+
+                    <TextView
+                        android:id="@+id/t_comTv"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text=" Rs 0" />
+                </LinearLayout>
+                <LinearLayout
+                    android:visibility="visible"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@color/Grey_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="start"
+                        android:text="TCS :" />
+
+                    <TextView
+                        android:id="@+id/tcsTv"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text=" Rs 0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:background="@color/Grey_200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/_10sdp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="7"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:gravity="start"
+                        android:text="Total Payable Amount :" />
+
+                    <TextView
+                        android:id="@+id/payAbleAmtTv"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text=" Rs 0" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:background="@color/colorPrimary"
+                        android:id="@+id/shippedOrdTv"
+                        android:textColor="@color/white"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/delivered"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:visibility="gone"
+                        android:background="@color/Grey_200"
+                        android:layout_marginStart="2dp"
+                        android:id="@+id/returnTv"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/rtrn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:background="@color/Grey_200"
+                        android:layout_marginStart="2dp"
+                        android:id="@+id/exchangeTv"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/exchange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:background="@color/Grey_200"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:id="@+id/cancelledTv"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/cancelled"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:background="@color/Grey_200"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <TextView
+                        style="@style/normal_text_view"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/no"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_14"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:id="@+id/dateTV"
+                        style="@style/normal_text_view"
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:text="@string/date"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_14"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        style="@style/normal_text_view"
+                        android:text="@string/order_no"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp_14"/>
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        style="@style/normal_text_view"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:textColor="@color/black"
+                        android:text="Status"/>
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        style="@style/normal_text_view"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:textColor="@color/black"
+                        android:text="@string/amount"/>
+
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerView"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

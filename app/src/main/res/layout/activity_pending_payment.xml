@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data></data>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="shopinpager.wingstud.shopinpagerseller.activity.PendingPayment">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:padding="@dimen/_5sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_amount"
+
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_16"/>
+            <TextView
+                android:id="@+id/amountTv"
+                style="@style/normal_text_view"
+                android:text=" Rs. 5000"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp_16"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_5"
+            app:cardCornerRadius="@dimen/dp_5"
+            app:cardElevation="@dimen/dp_5">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/noTv"
+                    style="@style/normal_text_view"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:text="No"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/dateTV"
+                    style="@style/normal_text_view"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:text="Date"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+                <TextView
+                    android:id="@+id/totalAmtTv"
+                    style="@style/normal_text_view"
+                    android:text="Total"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+
+                <TextView
+                    android:id="@+id/adminComTv"
+                    style="@style/normal_text_view"
+                    android:text="Admin Commission"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+                <TextView
+                    android:textStyle="bold"
+                    style="@style/normal_text_view"
+                    android:text="@string/tcs"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+                <TextView
+                    android:gravity="center"
+                    android:text="Payable Amount"
+                    style="@style/normal_text_view"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_14"/>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/paymentPerRV"/>
+
+    </LinearLayout>
+</layout>

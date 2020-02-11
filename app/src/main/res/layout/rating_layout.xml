@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:elevation="@dimen/dp_10"
+            android:translationZ="@dimen/dp_5"
+            app:cardCornerRadius="@dimen/dp_5">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_15"
+                        android:layout_height="@dimen/dp_15"
+                        android:src="@drawable/ic_star"/>
+
+                    <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp_5"
+                        android:text="4.5"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/gray"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal">
+
+                    <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_details"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/dp_60"
+                        android:layout_height="@dimen/dp_60"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:src="@drawable/profile_thumb"/>
+
+                    <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:text="Driver's name"
+                        android:textSize="@dimen/sp_14"
+                        android:textColor="@color/gray"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <shopinpager.wingstud.shopinpagerseller.custome.TextViewRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="How's your experience with driver's name"
+            android:textSize="@dimen/sp_12"
+            android:textColor="@color/black"/>
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/rbTotalRating"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_30"
+            android:layout_margin="@dimen/dp_10"
+            android:layout_marginRight="-3dp"
+            app:mrb_progressTint="@color/colorPrimary"
+            android:rating="4.5"
+            android:stepSize="0.1"
+            android:numStars="5"
+            app:mrb_secondaryProgressTint="@color/gray"
+            style="@style/Widget.MaterialRatingBar.RatingBar" />
+
+        <shopinpager.wingstud.shopinpagerseller.custome.EditTextViewRegular
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_100"
+            android:layout_margin="@dimen/dp_10"
+            android:padding="@dimen/dp_5"
+            android:translationZ="@dimen/dp_5"
+            android:background="@drawable/grey_border"
+            android:hint="@string/add_comment"
+            android:gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_20"/>
+
+    </LinearLayout>
+
+    <shopinpager.wingstud.shopinpagerseller.custome.ButtonViewRegular
+        android:id="@+id/btnSubmit"
+        style="@style/login_button_style"
+        android:layout_margin="@dimen/dp_20"
+        android:text="@string/submit"/>
+
+</LinearLayout>

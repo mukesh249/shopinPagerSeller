@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <data></data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/noTv"
+            style="@style/normal_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="S.N."
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp_12"/>
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/weightTv"
+            style="@style/normal_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/weight"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp_12"/>
+
+        <TextView
+            android:id="@+id/qtyTv"
+            style="@style/normal_text_view"
+            android:text="@string/qty"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp_12"/>
+
+        <TextView
+            android:id="@+id/priceTv"
+            style="@style/normal_text_view"
+            android:text="@string/price"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp_12"/>
+
+
+        <TextView
+            android:textSize="@dimen/sp_12"
+            android:gravity="center"
+            android:id="@+id/s_priceTv"
+            style="@style/normal_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:text="S. price"/>
+        <TextView
+            android:id="@+id/offerTv"
+            android:textSize="@dimen/sp_12"
+            android:gravity="center"
+            style="@style/normal_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:text="@string/offer"/>
+        <TextView
+            android:id="@+id/stockTv"
+            android:textSize="@dimen/sp_12"
+            android:gravity="center"
+            style="@style/normal_text_view"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/gray"
+            android:text="@string/in"/>
+
+    </LinearLayout>
+
+</layout>

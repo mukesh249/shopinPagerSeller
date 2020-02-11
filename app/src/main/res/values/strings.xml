@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">ShopinPager Seller</string>
+
+    <string name="google_key">AIzaSyDdI9Au-yloIs1B3ny2LWl24NwTd5F5dN8</string>
+
+    <string name="Rs">Rs.</string>
+
+    <string name="api_hiting">Please wait…</string>
+
+    <string name="network_error_msg">Sorry! Not connected to internet</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="let_s_start">Let\'s Start</string>
+
+    <string name="name_error_msg">Name length minimum 1 characters.</string>
+    <string name="error_name_blank">Name should not be blank</string>
+    <string name="error_user_name_blank">User Name should not be blank</string>
+    <string name="only_special_characters_not_allowed_name">Only special characters are not allowed in name.</string>
+    <string name="only_special_characters_not_allowed">Only special characters are not allowed in user name.</string>
+    <string name="only_special_characters_not_allowed_in_firm">Only special characters are not allowed in firm name.</string>
+    <string name="only_numbers_not_allowed_in_firm">Only numbers are not allowed in firm name.</string>
+    <string name="only_numbers_not_allowed_name">Only numbers are not allowed in name.</string>
+    <string name="only_numbers_not_allowed">Only numbers are not allowed in user name.</string>
+    <string name="error_email_blank"> Email should not be blank</string>
+    <string name="enter_valid_email">Please enter valid Email.</string>
+    <string name="error_mobile_number_wrong">Please enter valid mobile number</string>
+    <string name="error_zip_code_wrong">Please enter valid zipcode</string>
+    <string name="error_amount_wrong">Please enter valid amount</string>
+    <string name="error_password_pattern">Password should be 6-15 characters long</string>
+    <string name="error_password_match">Passowrd is not match</string>
+
+    <string name="internet_connection_not_found">Can\'t reach our servers. Please check your Internet connection.</string>
+    <string name="no_internet_connection_available">No Internet Connection available.</string>
+
+    <string name="error_mobile_number_blank"> Mobile number should not be blank</string>
+    <string name="error_zip_code_blank"> ZipCode should not be blank</string>
+    <string name="error_password_blank"> Password should not be blank</string>
+    <string name="error_old_password_blank"> Old Password should not be blank</string>
+    <string name="Ok">Ok</string>
+    <string name="Are_you_sure_to_logout">Do you want to logout?</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Yes">Yes</string>
+    <string name="Please_BACK_again_to_exit">Please BACK again to exit</string>
+
+    <!--Login Screen Strings-->
+
+    <string name="phone_number">Phone Number</string>
+    <string name="user_name">User Name</string>
+    <string name="login_using_otp">Login Using OTP</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Slider Screen Strings-->
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="points_collected">Points Collected :</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="orders_history">Order History</string>
+    <string name="notice">Notice</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="logout">Logout</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="order_no">Order No.</string>
+    <string name="fare">Fare :</string>
+
+    <!--Home Screen Strings-->
+
+    <string name="inactive">Inactive</string>
+    <string name="active">Active</string>
+    <string name="pickup_">Pickup :</string>
+    <string name="user_detail">User Detail</string>
+    <string name="accept">Accept</string>
+    <string name="click_toll_fee_images">Click Toll Fee Images</string>
+    <string name="call_user">Call User</string>
+    <string name="pickup">Pickup</string>
+    <string name="en_route">En route</string>
+    <string name="signature">Signature</string>
+    <string name="upload_chalan_and_cargo">Upload Challan and Cargo</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="order">Order</string>
+    <string name="user_details">User Details</string>
+    <string name="submit">Submit</string>
+    <string name="add_comment">Add Comment...</string>
+    <string name="rating">Rating</string>
+
+    <!--Chat Screen Strings-->
+
+    <string name="type_your_message">Type Your Message</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="terms">Terms &amp; Conditions</string>
+    <string name="help">Help &amp; Support</string>
+    <string name="destination">Destination</string>
+    <string name="delivery">Delivery</string>
+    <string name="contact_on_below_details">Contact to Below Details to purchase LPG</string>
+    <string name="signup">Sign Up</string>
+    <string name="order_id">Order Id:</string>
+    <string name="time">Time:</string>
+    <string name="status">Status:</string>
+    <string name="total">Total:</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="name_">Name:</string>
+    <string name="address">Address</string>
+    <string name="oty">Qty</string>
+    <string name="cost">Cost</string>
+    <string name="instruction">Instruction</string>
+    <string name="start_for_delivery">Start for delivery</string>
+    <string name="reached_at_destination">Reached at destination</string>
+    <string name="rate">Rate</string>
+    <string name="how_is_your_experience">How is your experience ?</string>
+    <string name="write_here">Write Here</string>
+    <string name="drop_">Drop :</string>
+    <string name="please_enter_registered_mobile_number">Please Enter registered \n mobile number</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="payment_overview">Payment Overview</string>
+    <string name="todays_orders">Orders</string>
+    <string name="product_upload">Product Upload</string>
+    <string name="product_details">Product Details</string>
+    <string name="drop">Drop</string>
+    <string name="cash">Cash</string>
+    <string name="payment">Payment</string>
+    <string name="order_details">Order Details</string>
+    <string name="notification">Notification</string>
+    <string name="pick_up">Pick Up</string>
+    <string name="drop_off">Drop Off</string>
+    <string name="total_distance">Total Distance</string>
+    <string name="order_list">Order List</string>
+    <string name="gps_setting">GPS is settings</string>
+    <string name="gps_setting_menu">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="settings">Settings</string>
+    <string name="new_order">New Order</string>
+    <string name="reject">Reject</string>
+    <string name="empty_noti">We\'ll let you know we\'ve gone something new for you</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign">Sign</string>
+    <string name="in">" in"</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="join_us_as_seller">Join Us as Seller</string>
+    <string name="up">" up"</string>
+    <string name="have_an_account">Have an account</string>
+    <string name="full_name">Full Name</string>
+    <string name="pincode">Pincode</string>
+    <string name="pre_payment">Previous Payment</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="name_required">Name is required</string>
+    <string name="email_required">Email is required</string>
+    <string name="mobile_no_required">Mobile no is required</string>
+    <string name="address_required">Address is required</string>
+    <string name="pincode_required">Pin-code is required</string>
+    <string name="total_unshipped_order">Total Unshipped \n Order</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="current_search_location">Current/Search Location</string>
+    <string name="next_payment">Next Payment</string>
+    <string name="order_s">Order\'s</string>
+    <string name="order_date">Order Date</string>
+    <string name="number_of_products">Number of Products</string>
+    <string name="assign_to_rider">Assign To Rider</string>
+    <string name="cancel_order">Cancel order</string>
+    <string name="qty">Qty:</string>
+    <string name="pending">Pending</string>
+    <string name="delivered">Delivered</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="exchange">Exchange</string>
+    <string name="today_payment">Today Payment</string>
+    <string name="today_payment_des">Estimated value of next payment. This may change due to return that come in before the next payment.</string>
+    <string name="pending_payment">Pending Payments</string>
+    <string name="pending_payment_des">Estimated value of next payments. That are due to you. This may change due to returns that come in before payment settlement dates.</string>
+    <string name="paid_payments">Paid payments</string>
+    <string name="paid_payments_des">History of amounts transferred to your account.</string>
+    <string name="amount">Amount</string>
+    <string name="view_details">View Details</string>
+    <string name="date">Date</string>
+    <string name="admin_commission">Admin Commission</string>
+    <string name="payable_amount">Payable Amount</string>
+    <string name="no">No</string>
+    <string name="payment_amount">Payment Amount :</string>
+    <string name="shipped_order">Shipped Order</string>
+    <string name="rtrn">Return</string>
+    <string name="product_name">Product Name*</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="brand_name">Brand Name</string>
+    <string name="add_brand">Add Brand</string>
+    <string name="main_category">Main Category*</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="price_and_unit">Price and Unit*</string>
+    <string name="weight">Weight</string>
+    <string name="discount">Discount</string>
+    <string name="price">Price</string>
+    <string name="offer">Offer</string>
+    <string name="gst">Gst(%)</string>
+    <string name="select_color">Select Color*</string>
+    <string name="images">Images*</string>
+    <string name="click_to_select_files">click to select Image</string>
+    <string name="submit_product">Submit Product</string>
+    <string name="shipping_address">Shipping Address</string>
+    <string name="products">Products</string>
+    <string name="product_charges">Product Charges</string>
+    <string name="shipping_charges">Shipping Charges</string>
+    <string name="shipping">Shipping</string>
+    <string name="order_amount_inc">Order Amount(Incl. GST)</string>
+    <string name="gro_commin">Grocito Commission</string>
+    <string name="edit">Edit</string>
+    <string name="view">View</string>
+    <string name="created_at">Created At</string>
+    <string name="category">Category:</string>
+    <string name="colors">Colors</string>
+    <string name="product_items">Product Items</string>
+    <string name="stock">Stock</string>
+
+    <string-array name="genderArray">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="countryArray">
+        <item>India</item>
+    </string-array>
+    <string-array name="cityArray">
+        <item>City Not Found</item>
+    </string-array>
+    <string-array name="pinArray">
+        <item>Pincode Not Found</item>
+    </string-array>
+    <string name="inventory">Inventory</string>
+    <string name="total_payment">Total payment</string>
+    <string name="in_stock">In Stock</string>
+    <string name="out_stock">Out of Stock</string>
+    <string name="view_products">View Products</string>
+    <string name="mark_out_of_stock">Mark out of stock</string>
+    <string name="mark_in_stock">Mark in stock</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="ar_u_sr_delt">Are you sure to delete this product??</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="food_license_no">Food License No.</string>
+    <string name="business_reg_no">Business Reg. No.</string>
+    <string name="upload_logo">Upload Logo</string>
+    <string name="seller_image">Seller Image</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="kcy_com">Complete KYC</string>
+    <string name="seller_agr">Seller Agreement</string>
+    <string name="account_no">Account No.</string>
+    <string name="ifsc_code">IFSC Code</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="account_holder_name">Account Holder Name</string>
+    <string name="pan_no">PAN No.</string>
+    <string name="gst_no">GST No.</string>
+    <string name="upload_cancel_cheque">Upload Cancel Cheque</string>
+    <string name="upload_pan_copy">Upload PAN Copy</string>
+    <string name="yes_i_agree_term_and_condition">Yes I Agree Term And Condition</string>
+    <string name="back">Back</string>
+    <string name="delivery_pincode">Delivery Pincode</string>
+    <string name="description">Description</string>
+    <string name="waiting_for_verification">Waiting for verification</string>
+    <string name="waiting">Waiting</string>
+    <string name="total_pending_order">Total Pending Order</string>
+    <string name="today_amount">Today Amount</string>
+    <string name="tcs">TCS</string>
+    <string name="duplicate_product">Duplicate product</string>
+    <string name="scheme">Scheme</string>
+    <string name="select_item">Select Item</string>
+    <string name="scheme_name">Scheme Name</string>
+    <array name="nav_drawer_items">
+        <item>@string/home</item>
+        <item>@string/order</item>
+        <item>@string/inventory</item>
+        <item>@string/payment</item>
+        <item>@string/product_upload</item>
+        <item>@string/duplicate_product</item>
+        <item>@string/scheme</item>
+        <item>@string/notice_board</item>
+        <item>@string/logout</item>
+    </array>
+</resources>

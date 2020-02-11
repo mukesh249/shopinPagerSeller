@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data></data>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@color/tranparent"
+        android:layout_width="@dimen/_75sdp"
+        android:layout_height="@dimen/_75sdp">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            android:background="@drawable/rounded_corner_white_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/selectImage"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:src="@drawable/demo_product" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_alignParentEnd="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/places_ic_clear"
+            android:tint="@color/black" />
+    </RelativeLayout>
+</layout>

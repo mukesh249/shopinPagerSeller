@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/grey_rounded_border">
+
+        <TextView
+            android:id="@+id/colorView"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+</layout>
